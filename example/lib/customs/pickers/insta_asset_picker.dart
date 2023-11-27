@@ -6,7 +6,6 @@
 ///
 /// See the package https://github.com/LeGoffMael/insta_assets_picker
 /// for the complete implementations.
-library;
 
 import 'dart:math';
 

@@ -37,15 +37,13 @@ Widget defaultPickerTestApp({
       Locale('ar'),
       Locale('fr'),
       Locale('vi'),
-      Locale('ko'),
     ],
     locale: locale,
   );
 }
 
 class _DefaultHomePage extends StatelessWidget {
-  // ignore: unused_element
-  const _DefaultHomePage(this.onButtonPressed, {super.key});
+  const _DefaultHomePage(this.onButtonPressed, {Key? key}) : super(key: key);
 
   final void Function(BuildContext)? onButtonPressed;
 
